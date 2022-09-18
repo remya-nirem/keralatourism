@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Kerala Tourism Website - Explore Places</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+          
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+     <!-- Menu-->
+     <section class="topmenu sticky-top">
+        <nav class="navbar navbar-expand-lg bg-success navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <img src="./images/kerala-gods-own-country.jpg" alt="Kerala Tourism Logo" id="logo">
+            </a>
+          
+            <div class="collapse navbar-collapse text-uppercase" id="navbarTogglerDemo03">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="about-kerala.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    About Kerala
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="about-kerala.html#history">History</a>
+                    <a class="dropdown-item" href="about-kerala.html#culture">Culture</a>  
+                    <a class="dropdown-item" href="about-kerala.html#geography">Geography</a>   
+                    <a class="dropdown-item" href="about-kerala.html#districts">Districts</a>     
+                    <a class="dropdown-item" href="about-kerala.html#festivals">Festivals</a>                                   
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="explore-places.html">Explore Places</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Plan Your Stay</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Trip Planner</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Brochure</a>
+                </li>
+                <li class="nav-item dropdown active">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-user"></i>
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item active" href="login.html">Login</a>
+                    <div class="dropdown-divider"></div> 
+                    <a class="dropdown-item" href="signup.html">Signup</a>                                       
+                  </div>
+                </li>
+              </ul>
+              <div class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2 rounded" type="search" placeholder="Search" id="searchtxt" style="width:150px;">
+                <button class="btn btn-outline-light btn-white btn-sm my-2 my-sm-0" id="searchbtn" onmouseover="showcontrol()" onclick="searchtext()" ><i class="fa fa-search"></i></button> 
+              </div>
+            </div>
+          </nav>
+    </section>
+
+    <!--page banner-->
+    <section class="headbanner">
+        <div class="container-flex">
+          <img src="images/Kerala-banner2.jpg" alt="Kerala tourism" class="img-flex w-100">
+        </div>        
+    </section>
+
+    <!--Breadcrump-->
+    <section class="breadcrumpnav container-flex">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Explore Places</li>
+        </ol>
+      </nav>
+    </section> 
+
+    <!--content-->
+    <section class="main-places">
+      <div class="container mt-2 mb-2">
+        <div class="row">
+          <div class="col-md-7 col-lg-9 col-sm-12 bg-light ">
+            <h5 class="mt-3 mb-3 text-success">Discover Places</h5>
+            <p>Kerala has been long known to be amongst the most accessible locations in the world. Since ancient times, our unique coastline and geographical factors ensured specified trade routes with many civilisations of both the East and the West. </p>
+            <p>With the advent of airways and improvements in rail and road networks, a whole new plethora of routes and passageways have opened to the State. We have provided the links and names to all important airports and railway stations below based on the specific location in the State that you wish to visit. We hope it makes planning your trip to Kerala even easier.</p>
+            <p>Kerala state have 14 districts, which are divided on the basis of geographical, historical and cultural similarities. The 14 districts are further divided into 21 revenue divisions, 14 District Panchayats, 63 taluks, 152 CD blocks, 1466 revenue villages, 999 Gram panchayats, 5 corporations and 60 municipalities.</p>
+            <p>Some of the districts and their towns were renamed in 1990 like Thiruvananthapuram (formerly known as Trivandrum), Kollam (Quilon), Alappuzha (Alleppey), Thrissur (Trichur or Thirushivaperur), Palakkad (Palghat), Kozhikode (Calicut) and Kannur (Cannanore).The districts are grouped into three regional divisions, as being the part of Kerala historical Kingdoms of Kochi, Travancore and British Province of Malabar.</p>
+                       
+            <div class="row">
+              <div class="col-md-6 col-sm-12 float-left">
+                <img src="images/Kerala-Map-District.png" alt="districts" class="img-flex w-100">
+              </div>
+              <div class="col-md-6 col-sm-12 float-right">
+                <p><strong>Districts in Kerala are grouped in three parts:</strong></p>              
+                <hr>
+                <ul style="list-style: square;">
+                  <li><strong>The Malabar (North Kerala districts):</strong> Kasaragod, Kannur, Wayanad, Kozhikkode and Malappuram
+                  </li>
+                  <li><strong>The Malabar (North Kerala districts):</strong> Kasaragod, Kannur, Wayanad, Kozhikkode and Malappuram
+                  </li>
+                  <li><strong>The Malabar (North Kerala districts):</strong> Kasaragod, Kannur, Wayanad, Kozhikkode and Malappuram
+                  </li>
+                </ul>
+                <p><strong>Few Facts of Kerala Districts</strong></p>
+                <ul style="list-style: square;" >
+                  <li>Palakkad District is the largest district in the state while Alappuzha is the smallest district in the state.</li>
+                  <li>Kannur district is the second largest district in the state and the most urbanized of all the districts in Kerala.</li>
+                  <li>Mallapuram is the highly populated district in Kerala</li>
+                </ul>
+                <p><strong>Major Cities</strong></p>
+                <hr>
+                <p>Thiruvananthapuram<br>
+                  Kollam<br>
+                  Kochi<br>
+                  Thrissur<br>
+                  Kozhikode</p>
+              </div>
+            </div>
+            
+            <div class="table-responsive-sm mb-3 district-table">
+                <table class="table-sm  table-light ">
+                  <thead>
+                    <tr class="bg-info text-white">
+                      <th>District</th>
+                      <th>Subdivision</th>
+                      <th>Area</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><a href="explore-Alappuzha.html">Alappuzha</td>
+                      <td>Ambalapuzha, Chengannur, Cherthala, Karthikappally, Kuttanad, Mavelikkara</td>
+                      <td>1,414 km2</td>
+                    </tr>
+                    <tr>
+                      <td><a href="explore-ernakulam.html">Ernakulam</td>
+                      <td>Aluva, Kanayannur, Kochi, Kothamangalam, Kunnathunad, Muvattupuzha, Paravur</td>
+                      <td>2,951 km2</td>
+                    </tr>
+                    <tr>
+                      <td><a href="explore-idukki.html">Idukki</td>
+                      <td>Devikulam, Peerumade, Thodupuzha, Udumbanchola</td>
+                      <td>4,479 km2</td>
+                    </tr>
+                    <tr>
+                      <td><a href="explore-kannur.html">Kannur</td>
+                      <td>Kannur, Thalassery, Thalipparamba</td>
+                      <td>2,966 km2</td>
+                    </tr>
+                    <tr>
+                      <td><a href="explore-kasaragod.html">Kasaragod</td>
+                      <td>Kasaragod, Hosdurg</td>
+                      <td>1,992 km2</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Kollam</td>
+                      <td>Karunagappally, Kollam, Kottarakkara, Kunnathur, Pathanapuram</td>
+                      <td>2,498 km2</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Kottayam</td>
+                      <td>Changanasserry, Kanjirappally, Kottayam, Meenachil, Vaikom</td>
+                      <td>2,203 km2</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Kozhikode</td>
+                      <td>Koyilandy, Kozhikode, Vadakara</td>
+                      <td>2,345 km2</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Malappuram</td>
+                      <td>Eranad, Nilambur, Perinthalmanna, Ponnani, Tirur, Tirurangadi</td>
+                      <td>3,550 km2</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Malappuram</td>
+                      <td>Eranad, Nilambur, Perinthalmanna, Ponnani, Tirur, Tirurangadi</td>
+                      <td>3,550 km2</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Palakkad</td>
+                      <td>Alathur, Chittur, Mannarkkad, Ottappalam, Palakkad</td>
+                      <td>4,480 km2</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Pathanamthitta</td>
+                      <td>Adoor, Kozhencherry, Mallappally, Ranni, Thiruvalla</td>
+                      <td>2,462 km2</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Thiruvananthapuram</td>
+                      <td>Chirayinkeezhu, Nedumangad, Neyyattinkara, Thiruvananthapuram</td>
+                      <td>2,192 km2</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Thrissur</td>
+                      <td>Chavakkad, Kodungallur, Mukundapuram, Thalapilly, Thrissur</td>
+                      <td>3,032 km2</td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Wayanad</td>
+                      <td>Mananthavady, Sultan Battery, Vythiri</td>
+                      <td>2,132 km2</td>
+                    </tr>
+                  </tbody>
+                </table>
+                
+                <div class="container mt-5 mb-5">
+                  <iframe src="https://www.meteoblue.com/en/weather/widget/three/kerala_india_1267254?geoloc=fixed&nocurrent=0&noforecast=0&days=7&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&layout=bright"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 805px; height: 620px"></iframe><div><!-- DO NOT REMOVE THIS LINK --><a href="https://www.meteoblue.com/en/weather/week/kerala_india_1267254?utm_source=weather_widget&utm_medium=linkus&utm_content=three&utm_campaign=Weather%2BWidget" target="_blank" rel="noopener">meteoblue</a></div>
+                </div>
+                
+
+            </div>
+          </div>
+          
+          <!--side menu-->
+          <div class="col-md-5 col-lg-3 col-sm-12">
+            <h5 class="mt-3 mb-3 text-success">Districts</h5>
+            <div class="mt-2 district-image">
+              <div class="ti-container">
+                <img src="./images/districts/alappuzha.jpg" alt="Alappuzha" class="image img-fluid">
+                <div class="overlay"><a href="explore-Alappuzha.html"> Alappuzha</a></div>
+              </div>
+              <div class="ti-container">
+                <img src="./images/districts/ernakulam.jpg" alt="ernakulam" class="image img-fluid">
+                <div class="overlay"><a href="explore-ernakulam.html"> Ernakulam</a></div>
+              </div>
+              <div class="ti-container">
+                <img src="./images/districts/Idukki.jpg" alt="Idukki" class="image img-fluid">
+                <div class="overlay"><a href="explore-idukki.html"> Idukki</a></div>
+              </div>
+              <div class="ti-container">
+                <img src="./images/districts/kannur.jpg" alt="Kannur" class="image img-fluid">
+                <div class="overlay"><a href="explore-kannur.html"> Kannur</a></div>
+              </div> 
+              <div class="ti-container">
+                <img src="./images/districts/kasaragod.jpg" alt="Kasaragodu" class="image img-fluid">
+                <div class="overlay"><a href="explore-kasaragod.html"> Kasaragod</a></div>
+              </div>
+              <div class="ti-container">
+                <img src="./images/districts/kollam.jpg" alt="Kollam" class="image img-fluid">
+                <div class="overlay"><a href="#"> Kollam</a></div>
+              </div>
+              <div class="ti-container">
+                <img src="./images/districts/kottayam.jpg" alt="Kottayam" class="image img-fluid">
+                <div class="overlay"><a href="#"> Kottayam</a></div>
+              </div>  
+              <div class="ti-container">
+                <img src="./images/districts/kozhikode.jpg" alt="Kozhikode" class="image img-fluid">
+                <div class="overlay"><a href="#"> Kozhikode</a></div>
+              </div> 
+              <div class="ti-container">
+                <img src="./images/districts/malappuram.jpg" alt="Malappuram" class="image img-fluid">
+                <div class="overlay"><a href="#"> Malappuram</a></div>
+              </div>  
+              <div class="ti-container">
+                <img src="./images/districts/palakkad.jpg" alt="Palakkad" class="image img-fluid">
+                <div class="overlay"><a href="#"> Palakkad</a></div>
+              </div>        
+              <div class="ti-container">
+                <img src="./images/districts/pathanamthitta.jpg" alt="Pathanamthitta" class="image img-fluid">
+                <div class="overlay"><a href="#"> Pathanamthitta/a></div>
+              </div> 
+              <div class="ti-container">
+                <img src="./images/districts/kasaragod.jpg" alt="Kasaragodu" class="image img-fluid">
+                <div class="overlay"><a href="#"> Kasaragod</a></div>
+              </div>
+              <div class="ti-container">
+                <img src="./images/districts/trivandrum.jpg" alt="Thiruvananthapuram" class="image img-fluid">
+                <div class="overlay"><a href="#"> Thiruvananthapuram</a></div>
+              </div>    
+              <div class="ti-container">
+                <img src="./images/districts/thrissur.jpg" alt="Thrissur" class="image img-fluid">
+                <div class="overlay"><a href="#"> Thrissur</a></div>
+              </div>
+              <div class="ti-container">
+                <img src="./images/districts/wayanad.jpg" alt="Wayanad" class="image img-fluid">
+                <div class="overlay"><a href="#"> Wayanad</a></div>
+              </div>
+          </div>    
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-white" style="background-color: #56d9f0">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+    
+          <!-- Section: Links -->
+          <section>
+            <!--Grid row-->
+            <div class="row">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 text-left">
+                <h6 class="text-uppercase mb-4 font-weight-bold">
+                  Kerala Tourism
+                </h6>
+                <p>
+                  Kerala is blessed with a unique set of geographical features that have made it one of the most sought after tourist destinations in Asia.
+                </p>
+              </div>
+              <!-- Grid column -->
+    
+              <hr class="w-100 clearfix d-md-none" />
+    
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 text-left">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Explore</h6>
+                <p>
+                  <a class="text-white" href="#">Nature</a><br>
+                  <a class="text-white" href="#">Beaches</a><br>
+                  <a class="text-white" href="#">Backwaters</a><br>
+                  <a class="text-white" href="#">Wildlife</a><br>
+                  <a class="text-white" href="#">Hills</a><br>
+                  <a class="text-white" href="#">Districts</a><br>
+                </p>            
+              </div>
+              <!-- Grid column -->
+    
+              <!-- Grid column -->
+              <hr class="w-100 clearfix d-md-none" />
+    
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 text-left">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Specialities</h6>
+                <p>
+                  <a class="text-white" href="#">Ayurveda</a><br>
+                  <a class="text-white" href="#">House Boat</a><br>
+                  <a class="text-white" href="#">Seasons</a><br>
+                  <a class="text-white" href="#">Food</a><br>
+                  <a class="text-white" href="#">Culture</a><br>
+                  <a class="text-white" href="#">Festivals</a><br>
+                </p>            
+              </div>
+              <!-- Grid column -->
+    
+              <hr class="w-100 clearfix d-md-none" />
+    
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 text-left">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                <p><i class="fa fa-home mr-3"></i> Dept. of Tourism, TVM, KL, IND - 695 033</p>
+                <p><i class="fa fa-envelope mr-3"></i> info@keralatourism.org</p>
+                <p><i class="fa fa-phone mr-3"></i>+91 471 2321132</p>
+                <p><i class="fa fa-print mr-3"></i>+91 471 2322279</p>
+              </div>
+              <!-- Grid column -->
+    
+              <!-- Grid column -->
+              <hr class="w-100 clearfix d-md-none" />
+    
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+    
+                <!-- Facebook -->
+                <a
+                   class="btn btn-primary btn-floating m-1"
+                   style="background-color: #3b5998;border: none;"
+                   href="https://www.facebook.com/keralatourismofficial"
+                   role="button" target="_blank"><i class="fa fa-facebook-f"></i></a>
+    
+                <!-- Twitter -->
+                <a
+                   class="btn btn-primary btn-floating m-1"
+                   style="background-color: #55acee;border: none;"
+                   href="#"
+                   role="button"
+                   ><i class="fa fa-twitter"></i
+                  ></a>
+    
+                <!-- Google -->
+                <a
+                   class="btn btn-primary btn-floating m-1"
+                   style="background-color: #dd4b39;border: none;"
+                   href="#"
+                   role="button"
+                   ><i class="fa fa-google"></i
+                  ></a>
+    
+                <!-- Instagram -->
+                <a
+                   class="btn btn-primary btn-floating m-1"
+                   style="background-color: #ac2bac;border: none;"
+                   href="#"
+                   role="button"
+                   ><i class="fa fa-instagram"></i
+                  ></a>
+    
+                <!-- Linkedin -->
+                <a
+                   class="btn btn-primary btn-floating m-1"
+                   style="background-color: #0082ca;border: none;"
+                   href="#"
+                   role="button"
+                   ><i class="fa fa-linkedin"></i
+                  ></a>
+                <!-- Github -->
+                <a
+                   class="btn btn-primary btn-floating m-1"
+                   style="background-color: #333333;border: none;"
+                   href="#"
+                   role="button"
+                   ><i class="fa fa-github"></i
+                  ></a>
+              </div>
+            </div>
+            <!--Grid row-->
+          </section>
+          <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+    
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+          © 2022 Copyright <a class="text-white" href="#">Kerala Tourism</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+        <script src="./js/script.js"></script>
+        
+    </body>
+    </html>

@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Kerala Tourism Website - Signup</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+          
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+     <!-- Menu-->
+     <section class="topmenu sticky-top">
+        <nav class="navbar navbar-expand-lg bg-success navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <img src="./images/kerala-gods-own-country.jpg" alt="Kerala Tourism Logo" id="logo">
+            </a>
+          
+            <div class="collapse navbar-collapse text-uppercase" id="navbarTogglerDemo03">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="about-kerala.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    About Kerala
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="about-kerala.html#history">History</a>
+                    <a class="dropdown-item" href="about-kerala.html#culture">Culture</a>  
+                    <a class="dropdown-item" href="about-kerala.html#geography">Geography</a>   
+                    <a class="dropdown-item" href="about-kerala.html#districts">Districts</a>     
+                    <a class="dropdown-item" href="about-kerala.html#festivals">Festivals</a>                                   
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="explore-places.html">Explore Places</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Plan Your Stay</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Trip Planner</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Brochure</a>
+                </li>
+                <li class="nav-item dropdown active">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-user"></i>
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="login.html">Login</a>
+                    <div class="dropdown-divider"></div> 
+                    <a class="dropdown-item active" href="#">Signup</a>                                       
+                  </div>
+                </li>
+              </ul>
+              <div class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2 rounded" type="search" placeholder="Search" id="searchtxt" style="width:150px;">
+                <button class="btn btn-outline-light btn-white btn-sm my-2 my-sm-0" id="searchbtn" onmouseover="showcontrol()" onclick="searchtext()" ><i class="fa fa-search"></i></button> 
+              </div>
+            </div>
+          </nav>
+    </section>
+
+    <!--Breadcrump-->
+    <section class="breadcrumpnav container-flex">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">User</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Sign Up</li>
+        </ol>
+      </nav>
+    </section> 
+
+    <section class="gradient-custom">
+        <div class="container py-5 ">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-12 col-lg-9 col-xl-7">
+              <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+                <div class="card-body p-md-5">
+                  <h4 class="pb-md-0">Sign Up </h4>
+                  <p>Please fill in this form to create an account!</p>
+                  
+                  <form>
+                    <div class="row">
+                      <div class="col-md-6 mb-4">      
+                        <div class="form-outline">
+                            <label class="form-label" for="firstName">First Name</label>  
+                            <input type="text" id="firstName" class="form-control" />
+                        </div>      
+                      </div>
+                      <div class="col-md-6 mb-4">      
+                        <div class="form-outline">
+                            <label class="form-label" for="lastName">Last Name</label>
+                            <input type="text" id="lastName" class="form-control" />
+                        </div>      
+                      </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-4 pb-2">      
+                          <div class="form-outline">
+                              <label class="form-label" for="emailAddress">Email</label>
+                              <input type="text" id="emailAddress" class="form-control" />                          
+                          </div>      
+                        </div>
+                        <div class="col-md-6 mb-4 pb-2">      
+                          <div class="form-outline">
+                              <label class="form-label" for="password">Password</label>
+                              <input type="text" id="password" class="form-control" />                          
+                          </div>      
+                        </div>
+                    </div>
+      
+                    <div class="row">
+                      <!-- <div class="col-md-6 mb-4 d-flex align-items-center">
+                        <div class="form-outline datepicker w-100">
+                            <label for="birthdayDate" class="form-label">Birthday</label>
+                            <input type="text" class="form-control" id="birthdayDate" />                          
+                        </div>     
+                      </div> -->
+                      <div class="col-md-6 mb-4 pb-2">      
+                        <div class="form-outline">
+                            <label class="form-label" for="phoneNumber">Phone Number</label>
+                            <input type="text" id="phoneNumber" class="form-control" />                          
+                        </div>      
+                      </div>
+                      <div class="col-md-6 mb-4">      
+                        <h6 class="mb-2 pb-1">Gender: </h6>      
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender"
+                            value="female" checked />
+                          <label class="form-check-label" for="femaleGender">Female</label>
+                        </div>
+      
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender"
+                            value="male" />
+                          <label class="form-check-label" for="maleGender">Male</label>
+                        </div>
+      
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="otherGender"
+                            value="other" />
+                          <label class="form-check-label" for="otherGender">Other</label>
+                        </div>      
+                      </div>
+                    </div>
+      
+                    <div class="row">
+                        <div class="col-md-12 mb-4 pb-2">      
+                          <div class="form-outline">
+                              <label class="form-label" for="homeAddress">Address</label>
+                              <input type="text" id="homeAddress" class="form-control" />                          
+                          </div>      
+                        </div>                        
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-4 pb-2">      
+                            <div class="form-outline">
+                                <label class="form-label" for="city">City</label>
+                                <input type="text" id="city" class="form-control" />                          
+                            </div>      
+                        </div>
+                        <div class="col-md-4 mb-4 pb-2">      
+                            <div class="form-outline">
+                                <label class="form-label" for="state">State</label>
+                                <select id="state" class="form-control">
+                                    <option selected>Choose...</option>
+                                    <option>...</option>
+                                 </select>
+                            </div>      
+                        </div>
+                        <div class="col-md-2 mb-4 pb-2">      
+                            <div class="form-outline">
+                                <label class="form-label" for="zip">Zipcode</label>
+                                <input type="text" id="zip" class="form-control" />                          
+                            </div>      
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12 mb-4 pb-2">
+                            <div class="form-check mb-2 mr-sm-2">
+                                <input class="form-check-input" type="checkbox" id="agreeterms">
+                                <label class="form-check-label" for="agreeterms">
+                                    Agree to terms and conditions
+                                </label>
+                              </div>
+                        </div>
+                    </div>
+      
+                    <div class="mt-2 pt-2">
+                      <input class="btn btn-dark w-100 font-weight-bold mt-2" type="submit" value="Submit" />
+                    </div>
+      
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-white" style="background-color: #56d9f0">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+    
+          <!-- Section: Links -->
+          <section>
+            <!--Grid row-->
+            <div class="row">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 text-left">
+                <h6 class="text-uppercase mb-4 font-weight-bold">
+                  Kerala Tourism
+                </h6>
+                <p>
+                  Kerala is blessed with a unique set of geographical features that have made it one of the most sought after tourist destinations in Asia.
+                </p>
+              </div>
+              <!-- Grid column -->
+    
+              <hr class="w-100 clearfix d-md-none" />
+    
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 text-left">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Explore</h6>
+                <p>
+                  <a class="text-white" href="#">Nature</a><br>
+                  <a class="text-white" href="#">Beaches</a><br>
+                  <a class="text-white" href="#">Backwaters</a><br>
+                  <a class="text-white" href="#">Wildlife</a><br>
+                  <a class="text-white" href="#">Hills</a><br>
+                  <a class="text-white" href="#">Districts</a><br>
+                </p>            
+              </div>
+              <!-- Grid column -->
+    
+              <!-- Grid column -->
+              <hr class="w-100 clearfix d-md-none" />
+    
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 text-left">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Specialities</h6>
+                <p>
+                  <a class="text-white" href="#">Ayurveda</a><br>
+                  <a class="text-white" href="#">House Boat</a><br>
+                  <a class="text-white" href="#">Seasons</a><br>
+                  <a class="text-white" href="#">Food</a><br>
+                  <a class="text-white" href="#">Culture</a><br>
+                  <a class="text-white" href="#">Festivals</a><br>
+                </p>            
+              </div>
+              <!-- Grid column -->
+    
+              <hr class="w-100 clearfix d-md-none" />
+    
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 text-left">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                <p><i class="fa fa-home mr-3"></i> Dept. of Tourism, TVM, KL, IND - 695 033</p>
+                <p><i class="fa fa-envelope mr-3"></i> info@keralatourism.org</p>
+                <p><i class="fa fa-phone mr-3"></i>+91 471 2321132</p>
+                <p><i class="fa fa-print mr-3"></i>+91 471 2322279</p>
+              </div>
+              <!-- Grid column -->
+    
+              <!-- Grid column -->
+              <hr class="w-100 clearfix d-md-none" />
+    
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+    
+                <!-- Facebook -->
+                <a
+                   class="btn btn-primary btn-floating m-1"
+                   style="background-color: #3b5998;border: none;"
+                   href="https://www.facebook.com/keralatourismofficial"
+                   role="button" target="_blank"><i class="fa fa-facebook-f"></i></a>
+    
+                <!-- Twitter -->
+                <a
+                   class="btn btn-primary btn-floating m-1"
+                   style="background-color: #55acee;border: none;"
+                   href="#"
+                   role="button"
+                   ><i class="fa fa-twitter"></i
+                  ></a>
+    
+                <!-- Google -->
+                <a
+                   class="btn btn-primary btn-floating m-1"
+                   style="background-color: #dd4b39;border: none;"
+                   href="#"
+                   role="button"
+                   ><i class="fa fa-google"></i
+                  ></a>
+    
+                <!-- Instagram -->
+                <a
+                   class="btn btn-primary btn-floating m-1"
+                   style="background-color: #ac2bac;border: none;"
+                   href="#"
+                   role="button"
+                   ><i class="fa fa-instagram"></i
+                  ></a>
+    
+                <!-- Linkedin -->
+                <a
+                   class="btn btn-primary btn-floating m-1"
+                   style="background-color: #0082ca;border: none;"
+                   href="#"
+                   role="button"
+                   ><i class="fa fa-linkedin"></i
+                  ></a>
+                <!-- Github -->
+                <a
+                   class="btn btn-primary btn-floating m-1"
+                   style="background-color: #333333;border: none;"
+                   href="#"
+                   role="button"
+                   ><i class="fa fa-github"></i
+                  ></a>
+              </div>
+            </div>
+            <!--Grid row-->
+          </section>
+          <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+    
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+          © 2022 Copyright <a class="text-white" href="#">Kerala Tourism</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+        <script src="./js/script.js"></script> 
+        
+    </body>
+    </html>
