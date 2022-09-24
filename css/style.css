@@ -165,6 +165,12 @@ body {
     background: linear-gradient(to bottom right, rgba(225, 231, 226, 1), rgba(165, 182, 171, 1))
 }
 
+.passwdStrength {
+  margin-top: 5%; 
+  display: none; 
+  text-align :center;
+}
+
 /*about */
 .maincontent .subheading{
     color: deepskyblue;    
